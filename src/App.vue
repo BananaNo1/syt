@@ -1,6 +1,10 @@
 <template>
-    <div>
-        <h1>hello</h1>
+    <div class="container">
+        <HospitalTop/>
+        <div class="content">
+            哈哈哈哈
+        </div>
+        <HospitalBottom/>
     </div>
 </template>
 
@@ -9,5 +13,17 @@
 </script>
 
 <style lang="scss" scoped>
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .content {
+    margin-top: 70px;
+    width: 1200px;
+    min-height: 700px;
+  }
+
+}
 
 </style>
